@@ -36,5 +36,6 @@ const App = () => {
 
 /**
  * Boostrap the <App /> component into the '#app' element in the DOM,
- * using ReactDOM.render();
  */
+let appElement = document.getElementById("app")
+ReactDOM.render(<App />), appElement;
